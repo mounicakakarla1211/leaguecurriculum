@@ -1,0 +1,253 @@
+[
+{
+	"uri": "localhost:1313/leaguecurriculum/",
+	"title": "League  -  Curriculum",
+	"tags": [],
+	"description": "League  -  Curriculum",
+	"content": " 3-Tier Curriculum Teacher Menu Student Menu  "
+},
+{
+	"uri": "localhost:1313/studentindex/installation/direct-copy/",
+	"title": "from zip archive",
+	"tags": [],
+	"description": "",
+	"content": "Install DocPort from a zip archive Navigate to your hugo root folder in your Hugo site and use perform one of following scenarios.\nAll files from theme will be tracked inside parent repo, to update it, have to override files in theme.  download zip and extract inside themes/.\nhttps://github.com/vjeantet/hugo-theme-docport/archive/master.zip Rename hugo-theme-docport-master folder to docport, to match configuration in next step.\nName of theme in next step will be docport.\nConfiguration Follow instructions here\n"
+},
+{
+	"uri": "localhost:1313/teacherindex/installation/direct-copy/",
+	"title": "from zip archive",
+	"tags": [],
+	"description": "",
+	"content": "Install DocPort from a zip archive Navigate to your hugo root folder in your Hugo site and use perform one of following scenarios.\nAll files from theme will be tracked inside parent repo, to update it, have to override files in theme.  download zip and extract inside themes/.\nhttps://github.com/vjeantet/hugo-theme-docport/archive/master.zip Rename hugo-theme-docport-master folder to docport, to match configuration in next step.\nName of theme in next step will be docport.\nConfiguration Follow instructions here\n"
+},
+{
+	"uri": "localhost:1313/studentindex/installation/",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": "HUGO v0.50 minimum required to use this theme (prefer extended version if you want to modify this theme source\rLast version of HUGO is recomended, tests are always done with the last version.\rThe following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nWe assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.\nPrepare empty Hugo site Create empty directory, which will be root of your Hugo project. Navigate there and let Hugo to create minimal required directory structure:\n$ hugo new site . After that, initialize this as git directory where to track further changes\n$ git init Install DocPort as git submodule Alernatives to submodules There are other ways to install DocPort. If submodule is no-go, use install as git clone or install from a zip archive\rDocPort will be added like a dependency repo to original project. When using CI tools like Netlify, Jenkins etc., submodule method is required, or you will get theme not found issues. Same applies when building site on remote server trough SSH.\nOn your root of Hugo execute:\n$ git submodule add https://github.com/vjeantet/hugo-theme-docport.git themes/docport Next initialize submodule for parent git repo:\n$ git submodule init $ git submodule update Now you are ready to add content and build your documentatyion. Do not change any file inside themes directory.\n\rConfiguration Follow instructions here\n"
+},
+{
+	"uri": "localhost:1313/teacherindex/installation/",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": "HUGO v0.50 minimum required to use this theme (prefer extended version if you want to modify this theme source\rLast version of HUGO is recomended, tests are always done with the last version.\rThe following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nWe assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.\nPrepare empty Hugo site Create empty directory, which will be root of your Hugo project. Navigate there and let Hugo to create minimal required directory structure:\n$ hugo new site . After that, initialize this as git directory where to track further changes\n$ git init Install DocPort as git submodule Alernatives to submodules There are other ways to install DocPort. If submodule is no-go, use install as git clone or install from a zip archive\rDocPort will be added like a dependency repo to original project. When using CI tools like Netlify, Jenkins etc., submodule method is required, or you will get theme not found issues. Same applies when building site on remote server trough SSH.\nOn your root of Hugo execute:\n$ git submodule add https://github.com/vjeantet/hugo-theme-docport.git themes/docport Next initialize submodule for parent git repo:\n$ git submodule init $ git submodule update Now you are ready to add content and build your documentatyion. Do not change any file inside themes directory.\n\rConfiguration Follow instructions here\n"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/",
+	"title": "League Associate Programmer",
+	"tags": [],
+	"description": "(Diploma) Curriculum Levels 0 - 2",
+	"content": "\r\rLevel 0\rLoops, Logic \u0026amp; Variables\n\r\rLevel 1\rObjects \u0026amp; Methods\n\r\rLevel 2\rDesign Your Own Game\n\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/",
+	"title": "Level 0",
+	"tags": [],
+	"description": "Loops, Logic &amp; Variables",
+	"content": "\r\rTeacher\u0026#39;s Guide\r\r\rRecipe Overview\r\r\rStudent Recipe Modules\r\r\rExams and Practice Tests\r\r\rWritten Exam Grading Assistant\r\r\rTeacher Tools\r\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/studentrecipemodules/module0/",
+	"title": "Module0",
+	"tags": ["Module0"],
+	"description": "drawing, code flow, Strings, games",
+	"content": ""
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/recipes/shapeandcolors/",
+	"title": "Shape and Colors",
+	"tags": ["Module0", "Activity", "Drawing"],
+	"description": "",
+	"content": "\r1st column \rSteps:  Find the Shapes and Colors recipe program ( a_ShapesAndColors.pde ) and open it using Processing. Discover how to draw different shapes using Processing. Use ellipses, rectangles, and even triangles! Add color to your drawing to make it pop! Make sure you SAVE YOUR CODE when you are done.  \r\r "
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/teachersguide/",
+	"title": "Teacher&#39;s Guide",
+	"tags": [],
+	"description": "",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/studentindex/installation/as-git-clone/",
+	"title": "with git clone",
+	"tags": [],
+	"description": "",
+	"content": "Install DocPort with a git clone Navigate to your hugo root folder in your Hugo site and use perform one of following scenarios.\nThis method results that files are checked out locally, but won\u0026rsquo;t be visible from parent git repo. Probably you will build site locally with hugo command and use result from public/ on your own.\n$ git clone https://github.com/vjeantet/hugo-theme-docport.git themes/docport Configuration Follow instructions here\n"
+},
+{
+	"uri": "localhost:1313/teacherindex/installation/as-git-clone/",
+	"title": "with git clone",
+	"tags": [],
+	"description": "",
+	"content": "Install DocPort with a git clone Navigate to your hugo root folder in your Hugo site and use perform one of following scenarios.\nThis method results that files are checked out locally, but won\u0026rsquo;t be visible from parent git repo. Probably you will build site locally with hugo command and use result from public/ on your own.\n$ git clone https://github.com/vjeantet/hugo-theme-docport.git themes/docport Configuration Follow instructions here\n"
+},
+{
+	"uri": "localhost:1313/threetieroverview/",
+	"title": "3-Tier Curriculum",
+	"tags": [],
+	"description": "League 3-Tier Curriculum Overview",
+	"content": "League 3-Tier Curriculum Overview \rLeague Associate Programmer\r(Diploma) Curriculum Levels 0 - 2\n\r\rLeague Advanced Programmer\r(Graduate) Curriculum Levels 3 - 5\n\r\rLeague Professional Programmer\r(Post-Grad) Curriculum Levels 6 - 7\n\r\rElectives AP Computer Science A Exam Prep League Associate Programmer+\nOracle Certified Associate Programmer Exam Prep League Advanced Programmer+\nCracking the Coding Interview League Advanced Programmer\nUnity League Associate Programmer+\n"
+},
+{
+	"uri": "localhost:1313/studentindex/configuration/",
+	"title": "Configuration",
+	"tags": [],
+	"description": "",
+	"content": "There are a few configuration options that you can add to your config.toml file.\nTip Use the sample config.toml from docPort example site as a blueprint for your Hugo project:\n\rUse the docport theme When building the website, you can set a theme by passing the --theme argument on command line. We suggest you to edit your config.toml configuration file and set the theme by default.\ntheme = \u0026#34;docport\u0026#34; Create content and customize the theme Find out how to create and customize the theme to fit your needs .\n"
+},
+{
+	"uri": "localhost:1313/teacherindex/configuration/",
+	"title": "Configuration",
+	"tags": [],
+	"description": "",
+	"content": "There are a few configuration options that you can add to your config.toml file.\nTip Use the sample config.toml from docPort example site as a blueprint for your Hugo project:\n\rUse the docport theme When building the website, you can set a theme by passing the --theme argument on command line. We suggest you to edit your config.toml configuration file and set the theme by default.\ntheme = \u0026#34;docport\u0026#34; Create content and customize the theme Find out how to create and customize the theme to fit your needs .\n"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier2overview/",
+	"title": "League Advanced Programmer",
+	"tags": [],
+	"description": "(Graduate) Curriculum Levels 3 - 5",
+	"content": "There are a few configuration options that you can add to your config.toml file.\nTip Use the sample config.toml from docPort example site as a blueprint for your Hugo project:\n\rUse the docport theme When building the website, you can set a theme by passing the --theme argument on command line. We suggest you to edit your config.toml configuration file and set the theme by default.\ntheme = \u0026#34;docport\u0026#34; Create content and customize the theme Find out how to create and customize the theme to fit your needs .\n"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level1/",
+	"title": "Level 1",
+	"tags": [],
+	"description": "Objects &amp; Methods",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/recipes/makeameme/",
+	"title": "Make me a Meme",
+	"tags": ["Module0", "Activity", "Drawing"],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/studentrecipemodules/module1/",
+	"title": "Module1",
+	"tags": [],
+	"description": "int variables, if/else, for loops, ++, --",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/recipeoverview/",
+	"title": "Recipe Overview",
+	"tags": [],
+	"description": "",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/teacherindex/",
+	"title": "Teacher Menu",
+	"tags": [],
+	"description": "League Teacher - Curriculum Levels",
+	"content": "Requirements Download Hugo binary for your OS (Windows, Linux, Mac) : it’s that simple\n\rInstallation\rHUGO v0.50 minimum required to use this theme (prefer extended version if you want to modify this theme source\rLast version of HUGO is recomended, tests are always done with the last version.\rThe following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\n\r\rConfiguration\rThere are a few configuration options that you can add to your config.toml file. Tip Use the sample config.toml from docPort example site as a blueprint for your Hugo project: Use the docport theme When building the website, you can set a theme by passing the --theme argument on command line. We suggest you to edit your config.toml configuration file and set the theme by default. theme = \u0026#34;docport\u0026#34; Create content and customize the theme Find out how to create and customize the theme to fit your needs .\n\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier3overview/",
+	"title": "League Professional Programmer",
+	"tags": [],
+	"description": "(Post-Grad) Curriculum Levels 6 - 7",
+	"content": "There are a few configuration options that you can add to your config.toml file.\nTip Use the sample config.toml from docPort example site as a blueprint for your Hugo project:\n\rUse the docport theme When building the website, you can set a theme by passing the --theme argument on command line. We suggest you to edit your config.toml configuration file and set the theme by default.\ntheme = \u0026#34;docport\u0026#34; Create content and customize the theme Find out how to create and customize the theme to fit your needs .\n"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level2/",
+	"title": "Level 2",
+	"tags": [],
+	"description": "Design Your Own Game",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/recipes/logicaldot/",
+	"title": "Logical Dot",
+	"tags": ["Module0", "Drawing", "Time for More"],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/studentrecipemodules/module2/",
+	"title": "Module2",
+	"tags": [],
+	"description": "Random, methods, String-to-int",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/recipes/robotsquare/",
+	"title": "Robot Square",
+	"tags": ["Module0", "Code Flow", "Activity"],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/studentrecipemodules/",
+	"title": "Student Recipe Modules",
+	"tags": [],
+	"description": "",
+	"content": "\r\rModule0\rdrawing, code flow, Strings, games\n\r\rModule1\rint variables, if/else, for loops, \u0026#43;\u0026#43;, --\n\r\rModule2\rRandom, methods, String-to-int\n\r\rModule3\relse if, loop variables, modulo\n\r\rModule4\rdouble, boolean, charAt, option dialog\n\r\rModule5\ralgorithms, nested loops, practice\n\r\r"
+},
+{
+	"uri": "localhost:1313/studentindex/",
+	"title": "Student Menu",
+	"tags": [],
+	"description": "League Student - Curriculum Levels",
+	"content": "Requirements Download Hugo binary for your OS (Windows, Linux, Mac) : it’s that simple\n\rInstallation\rHUGO v0.50 minimum required to use this theme (prefer extended version if you want to modify this theme source\rLast version of HUGO is recomended, tests are always done with the last version.\rThe following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\n\r\rConfiguration\rThere are a few configuration options that you can add to your config.toml file. Tip Use the sample config.toml from docPort example site as a blueprint for your Hugo project: Use the docport theme When building the website, you can set a theme by passing the --theme argument on command line. We suggest you to edit your config.toml configuration file and set the theme by default. theme = \u0026#34;docport\u0026#34; Create content and customize the theme Find out how to create and customize the theme to fit your needs .\n\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/examsandpracticetest/",
+	"title": "Exams and Practice Tests",
+	"tags": [],
+	"description": "",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/studentrecipemodules/module3/",
+	"title": "Module3",
+	"tags": [],
+	"description": "else if, loop variables, modulo",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/studentrecipemodules/module4/",
+	"title": "Module4",
+	"tags": [],
+	"description": "double, boolean, charAt, option dialog",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/writtenexamgradingassistant/",
+	"title": "Written Exam Grading Assistant",
+	"tags": [],
+	"description": "",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/studentrecipemodules/module5/",
+	"title": "Module5",
+	"tags": [],
+	"description": "algorithms, nested loops, practice",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/teachertools/",
+	"title": "Teacher Tools",
+	"tags": [],
+	"description": "",
+	"content": "\r\r"
+},
+{
+	"uri": "localhost:1313/threetieroverview/tier1overview/level0/recipes/",
+	"title": "Recipes",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "localhost:1313/404.html",
+	"title": "Whoops! Page not found",
+	"tags": [],
+	"description": "This is a 404 page",
+	"content": "That page can\u0026rsquo;t be found.\nOur latest content is on the homepage.\nPhoto by Aron Visuals on Unsplash"
+}]
